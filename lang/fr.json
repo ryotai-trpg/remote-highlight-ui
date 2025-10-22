@@ -1,6 +1,9 @@
 {
   "remote-highlight-ui": {
-    "tokenToolbar.title": "Mise en évidence à distance",
+    "tool": {
+      "heading": "Mise en surbrillance à distance",
+      "paragraph": "Cliquez sur n'importe quel élément de l'interface utilisateur pour le mettre en surbrillance. Vous pouvez également utiliser un raccourci intégré (par exemple, Ctrl+clic central) et définir un utilisateur spécifique comme cible de mise en surbrillance via la liste des utilisateurs."
+    },
     "settings": {
       "enable-highlighting-for-others": {
         "name": "Activer la mise en évidence des éléments pour d'autres joueurs",
@@ -30,7 +33,20 @@
       "instant-highlight-keybind": {
         "name": "Raccourci clavier instantané",
         "hint": "Appuyez ici pour mettre en évidence l'élément de l'Interface Utilisateur situé sous votre curseur. L'option « Activer la mise en évidence » doit être activée."
+      },
+      "permission-level": {
+        "name": "Niveau minimum pour accéder à l'outil",
+        "hint": "Choisissez le niveau d’utilisateur qui verra le bouton de la barre d’outils.",
+        "choices": {
+          "gm": "MJ uniquement",
+          "trusted": "MJ et joueurs de confiance",
+          "player": "Tous les joueurs"
+        }
       }
+    },
+    "playerList": {
+      "highlightOnlyForThisUser": "Mettre en surbrillance l'interface utilisateur uniquement pour cet utilisateur",
+      "stopOnlyHighlightingForThisUser": "Arrêter de mettre en surbrillance uniquement pour cet utilisateur"
     }
   }
 }
